@@ -7,7 +7,10 @@
 
 <h1>How to Use this App</h1>
 
-<p>To use this app, type in a date or Unix time stamp after the address above.</p>
-<p>Example: /January 22, 2016</p>
+<p>Submit a file to view its filesize.</p>
+<form action="/get-file-size" method="post" enctype="multipart/form-data">
+  <input type="file" name="file">
+  <input type="submit">
+</form>
 
 </body>
