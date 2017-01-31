@@ -1,16 +1,16 @@
 {
-  "name": "meta",
+  "name": "timestamp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API that returns JSON of UNIX time stamp",
   "engines": {
     "node": "4.6.1",
     "npm": "2.15.9"
   },
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Justin Travis Mair",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1",
